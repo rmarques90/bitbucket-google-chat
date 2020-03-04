@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  app:
+    image: integrador-google-chat-pr:1.0
+    environment:
+      - WEBHOOK_PR_URL=""
+    ports:
+      - 9000:3000
